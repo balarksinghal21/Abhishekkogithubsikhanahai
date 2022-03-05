@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/91957a824f.js" crossorigin="anonymous"></script>
+    <title>Scoops Met Straws | Cold music for your mouth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+                <nav id="sideNav">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">PRODUCTS</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" class="cart-icon" width="40px" height="40px">
+                <img src="images/menu.png" class="menu-icon" id="menuBtn">
+            </div>
+            <!----------- JS for toggle Menu ----- -->
+            <script>
+                var menuBtn = document.getElementById("menuBtn");
+                var sideNav = document.getElementById("sideNav");
+
+                sideNav.style.right = "-150px";
+                menuBtn.onclick = function(){
+                    if(sideNav.style.right == "-150px"){
+                        sideNav.style.right = "0px";
+                    }
+                    else{
+                        sideNav.style.right = "-150px";
+                    }
+                }
+            </script>
+            <div class="row">
+                <div class="col-2">
+                    <h1>We Are Open For Your<br>Sugar Cravings!</h1>
+                    <p>Melted memories are the best memories. You'll Love It The Way It's Made.<br>A Blend Of Flavors You Can Always Count On.</p>
+                    <a href="" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/straw_ice.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--------- Why Us?  --------->
+   <div class="small-container">
+       <h2 class="h2-small-container">Why Choose Us</h2>
+       <section class="service" id="service">
+               <div class="serve-1">
+                   <div class="col-4">
+                       <h2 class="titleText">Best Quality</h2>
+                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sapiente quam vero esse magni ipsum similique nulla perferendis pariatur unde officia ut, quasi quos in voluptate repudiandae ad ab. Porro ipsa sapiente molestiae, magnam nemo nesciunt praesentium aliquam tempore iure, aspernatur explicabo consequuntur quas vero ratione laboriosam fugiat natus dolore.<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est officiis ipsam sint consectetur id a facere consequuntur commodi, quo corporis natus molestiae quia! Soluta voluptatum deleniti illo labore perferendis alias.</p>
+                   </div>
+                   <div class="col-4">
+                       <div class="imgServe">
+                           <img src="images/chocolate.jpg">
+                       </div>
+                   </div>
+                </div>
+       </section>
+       <section>
+           <div class="serve-2">
+               <div class="col-6">
+                    <h2 class="titleText">Fast Delivery</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sapiente quam vero esse magni ipsum similique nulla perferendis pariatur unde officia ut, quasi quos in voluptate repudiandae ad ab. Porro ipsa sapiente molestiae, magnam nemo nesciunt praesentium aliquam tempore iure, aspernatur explicabo consequuntur quas vero ratione laboriosam fugiat natus dolore.<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est officiis ipsam sint consectetur id a facere consequuntur commodi, quo corporis natus molestiae quia! Soluta voluptatum deleniti illo labore perferendis alias.</p>
+                </div>
+                <div class="col-6">
+                    <div class="imgServe" id="imgServe">
+                        <img src="images/mango.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service" id="service">
+            <div class="serve-1">
+                <div class="col-4">
+                    <h2 class="titleText">Customize Your Orders</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sapiente quam vero esse magni ipsum similique nulla perferendis pariatur unde officia ut, quasi quos in voluptate repudiandae ad ab. Porro ipsa sapiente molestiae, magnam nemo nesciunt praesentium aliquam tempore iure, aspernatur explicabo consequuntur quas vero ratione laboriosam fugiat natus dolore.<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est officiis ipsam sint consectetur id a facere consequuntur commodi, quo corporis natus molestiae quia! Soluta voluptatum deleniti illo labore perferendis alias.</p>
+                </div>
+                <div class="col-4">
+                    <div class="imgServe">
+                        <img src="images/chocolate.jpg">
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section>
+            <div class="serve-2">
+                <div class="col-6">
+                     <h2 class="titleText">Amazing Flavours</h2>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sapiente quam vero esse magni ipsum similique nulla perferendis pariatur unde officia ut, quasi quos in voluptate repudiandae ad ab. Porro ipsa sapiente molestiae, magnam nemo nesciunt praesentium aliquam tempore iure, aspernatur explicabo consequuntur quas vero ratione laboriosam fugiat natus dolore.<br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est officiis ipsam sint consectetur id a facere consequuntur commodi, quo corporis natus molestiae quia! Soluta voluptatum deleniti illo labore perferendis alias.</p>
+                 </div>
+                 <div class="col-6">
+                     <div class="imgServe" id="imgServe">
+                         <img src="images/mango.jpg">
+                     </div>
+                 </div>
+             </div>
+        </section>
+    </div>
+   
+    <!----------- Franchise  ------------->
+    <section class="franchise">
+        <h2 class="h2-small-container">Our Franchises</h2>
+        <div class="franch">
+            <div class="franch-col">
+                <img src="images/dubai.jpg">
+                <div class="layer">
+                    <h3 class="h3-small-container">DUBAI</h3>
+                </div>
+            </div>
+            <div class="franch-col">
+                <img src="images/london.jpg">
+                <div class="layer">
+                    <h3 class="h3-small-container">LONDON</h3>
+                </div>
+            </div>
+            <div class="franch-col">
+                <img src="images/paris.jpg">
+                <div class="layer">
+                    <h3 class="h3-small-container">PARIS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!------ testimonials --------->
+     <div class="testimonial">
+        <h2 class="h2-small-container">Testimonials</h2>
+        <div class="test-small-container">
+            <div class="test-row">
+                <div class="test">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, deleniti fugiat iusto architecto
+                        fugit expedita beatae debitis</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-1.png">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="test">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, deleniti fugiat iusto architecto
+                        fugit expedita beatae debitis</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-2.png">
+                    <h3>Mike Paul</h3>
+                </div>
+                <div class="test">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, deleniti fugiat iusto architecto
+                        fugit expedita beatae debitis</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-3.png">
+                    <h3>Jasmine Carter</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brands -------------------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-------- Footer --------------->
+    <footer>
+        <div class="foot">
+            <div class="foot-col">
+                <img src="images/logo-footer.png" class="logo-foot">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis illum cum illo? Aliquid, magnam vitae eligendi quam incidun</p>
+                <br>
+                <p>Download App for Android and IOS Mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="foot-col">
+                <h3>Our Address <div class="underline"><span></span></div></h3>
+                <p>11-A-6</p>
+                <p>Mahaveer Nagar 3rd, Kota</p>
+                <p>Rajasthan, PIN 324005, India</p>
+                <p class="email-id">scoopsmetstraws@gmail.com</p>
+                <h4>+91 - 9461467730</h4>
+            </div>
+            <div class="foot-col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">ACCOUNT</a></li>
+                </ul>
+            </div>
+            <div class="foot-col">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Scoops Met Straws &copy; 2022 - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
